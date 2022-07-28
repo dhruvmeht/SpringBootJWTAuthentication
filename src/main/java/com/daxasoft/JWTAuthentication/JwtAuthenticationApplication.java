@@ -9,6 +9,7 @@ public class JwtAuthenticationApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run = SpringApplication.run(JwtAuthenticationApplication.class, args); 
+		System.out.println("Printing the content of applicationContext"+run.toString()); //2 nd part
 		
 	}
 
